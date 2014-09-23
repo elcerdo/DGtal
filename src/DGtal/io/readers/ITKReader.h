@@ -42,6 +42,7 @@
 #include "DGtal/base/CUnaryFunctor.h"
 #include "DGtal/base/BasicFunctors.h"
 #include "DGtal/io/ITKIOTrait.h"
+#include "DGtal/images/CImage.h"
 
 namespace DGtal
 {
