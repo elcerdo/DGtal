@@ -69,7 +69,7 @@ findABel
   BOOST_CONCEPT_ASSERT(( concepts::CPointPredicate<PointPredicate> ));
 
   DGtal::InputException dgtalerror;
-  Point sizes = K.upperBound() - K.lowerBound();
+  Point sizes = K.upperBound() - K.lowerBound() + Point::diagonal(1);
   Point x1 = K.lowerBound();
   Point x2;
   // (1) Find two candidates in the space.
